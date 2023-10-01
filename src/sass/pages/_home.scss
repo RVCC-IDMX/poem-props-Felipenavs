@@ -1,1 +1,67 @@
 /* home */
+
+.content{   
+    background: var(--gradient-26); 
+    font-family: var(--font-serif);
+}
+
+.poem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poem__container-1{
+    flex-shrink: 1; 
+}
+
+.poem__container-2{
+    color: var(--sand-9);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-inline: var(--size-fluid-3);
+    padding-block: var(--size-fluid-3);
+    font-size: var(--font-size-fluid-3);
+    border-bottom: 3px white solid;
+}
+
+p {
+    padding-block: var(--size-fluid-2);
+    padding-inline: var(--size-fluid-0);
+}
+
+.poem__img{
+    border-bottom: 3px white solid;
+}
+
+.poem__intro {
+    padding-block: var(--size-fluid-1);
+    color:white;
+}
+
+h2{
+    font-family: var(--font-sans);
+    padding-block-end: 0;
+}
+
+
+footer{
+    font-size: var(--font-size-fluid-1);
+    color: black;
+    background: var(--gradient-29);
+    border-top: 3px white solid;
+    padding-inline: 2%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.link-color {
+    color: white;
+}
+
+.credits {
+    padding-inline: var(--size-fluid-2);
+}
+
