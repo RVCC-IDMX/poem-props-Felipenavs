@@ -17,27 +17,26 @@
 .poem__container-2{
     color: var(--sand-9);
     flex-grow: 1;
+    flex-shrink: 1;
     display: flex;
     align-items: center;
     justify-content: center;   
     padding-inline: var(--size-fluid-3);
     padding-block: var(--size-fluid-3);
-    font-size: var(--font-size-fluid-3);
-    border-bottom: 3px white solid;
+    // border-bottom: 3px white solid;
+    margin-block: var(--size-fluid-3);
 }
 
 p {
-    padding-block: var(--size-fluid-2);
-    padding-inline: var(--size-fluid-0);
+    padding-block: var(--size-fluid-1);
+    font-size: var(--font-size-fluid-1);
 }
 
-.poem__img{
-    border-bottom: 3px white solid;
-}
+
 
 .poem__intro {
-    padding-block: var(--size-fluid-1);
-    color:white;
+    color: white;
+    margin-block-end:var(--size-fluid-3);
 }
 
 h2{
@@ -47,14 +46,12 @@ h2{
 
 
 footer{
-    font-size: var(--font-size-fluid-1);
     color: black;
     background: var(--gradient-29);
     border-top: 3px white solid;
     padding-inline: 2%;
     display: flex;
     justify-content: center;
-   
 }
 
 .link-color {
@@ -62,6 +59,7 @@ footer{
 }
 
 .credits {
+    padding-block: var(--size-fluid-1);
     padding-inline: var(--size-fluid-2);
 }
 
