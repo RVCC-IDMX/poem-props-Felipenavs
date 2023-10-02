@@ -1,31 +1,11 @@
-# IDMX 11ty Sass Starter
+# IDMX Open Props, 11ty and Sass Starter  
 
-The set of development scripts in this starter is configured to watch and compile a simple Sass structure using 11ty.
-
-The code is located in the `src` folder and the page is created in the `public` folder.
-
-The `settings.json` in the `.vscode` folder sets the `LiveServer` configuration to serve from the `public` folder and can be used to serve the built page.
-
-The build process includes minifiying and autoprefixing of styles via the `postbuild` script, which runs automatically after a `build`.
-
-## Installation
-
-**`npm install`**
-
->Run this command once to install the needed node modules.
-
-## Development Scripts
-
-**`npm start`**
-
-> This script runs 11ty with hot reload and served at the url localhost:8080. It will reload whenever there are HTML or Sass changes.
-
-**`npm run build`**
-
-> This script does a production build and includes minified, autoprefixed CSS.
-
-Use this as the "Publish command" if needed by hosting services such as Netlify.
+This project is meant to be an intruduction to Sass and Open props.  
 
 ## Resources
 
-<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+Poem by: [Laura Riding Jackson](https://poets.org/poem/prisms).  
+
+Image by: Image by: [Freepik](https://www.freepik.com/free-photo/abstract-vaporwave-portrait-woman_13819138.htm#query=woman%20made%20of%20glass&position=5&from_view=search&track=ais#position=5&query=woman%20made%20of%20glass).  
+
+Favicon by: [Prism Vectors by Vecteezy](https://www.vecteezy.com/free-vector/prism).
